@@ -110,38 +110,3 @@ void _launchPhone() async {
 void _launchMail() async {
   if (!await launchUrl(_email)) throw 'Could not launch $_email';
 }
-
-// Row(
-//             // mainAxisSize: MainAxisSize.min,
-//             // verticalDirection: VerticalDirection.up,
-//             // mainAxisAlignment: MainAxisAlignment.center,
-//             // crossAxisAlignment: CrossAxisAlignment.stretch,
-//             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//             children: <Widget>[
-//               Container(
-//                 height: double.infinity,
-//                 width: 100,
-//                 color: Colors.red,
-//               ),
-//               Column(
-//                 mainAxisAlignment: MainAxisAlignment.center,
-//                 children: [
-//                   Container(
-//                     height: 100,
-//                     width: 100,
-//                     color: Colors.yellow,
-//                   ),
-//                   Container(
-//                     height: 100,
-//                     width: 100,
-//                     color: Colors.green,
-//                   ),
-//                 ],
-//               ),
-//               Container(
-//                 height: double.infinity,
-//                 width: 100,
-//                 color: Colors.blue,
-//               )
-//             ],
-//           ),),
